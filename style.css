@@ -473,9 +473,40 @@
     font-weight: bold;
     margin: 0;
     color: #9f116a;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .respuesta {
     margin: 20px;
     color: #b52780;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Como comprar*/
+
+.texto-comprar-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-comprar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txt-comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: #b52780;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ult {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
