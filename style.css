@@ -262,15 +262,14 @@
 }
 
 .prenda {
-    width: 300px;
-    height: 400px;
+    height: 370px;
     display: flex;
     flex-direction: column;
 }
 
-.texto-prenda {
+.texto-prendas {
     text-decoration: none;
-    color: #efa0ff;
+    color: #4d4b4b;
     font-weight: bold;
     font-size: large;
     display: flex;
@@ -278,19 +277,26 @@
     padding: 5px;
 }
 
+.tarjeta-prendas {
+    margin: 10px;
+}
+
 .todos-los-productos {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .los-productos {
     text-decoration: none;
     font-size: 18px;
     margin-left: 10px;
+    color: #000000;
 }
 
 .dentro {
     margin-left: 14px;
+    text-decoration: none;
 }
 
 .texto-costado-productos {
@@ -301,12 +307,16 @@
 }
 
 .lado-izquierdo-productos {
-    margin-left: 130px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
 .colores {
     font-size: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #ebe1c9;
+    background-color: #fffaf0;
 }
 
 .texto {
