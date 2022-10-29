@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.hey-babe {
+    background-color: #ff69b4;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.logo {
+    max-width: 100px;
+    margin-left: 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-right: 100px;
+    margin-top: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    font-size: large;
+}
+
+#menu-iconos {
+    display: flex;
+    padding: 3px;
+}
+
+.barra {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texto-dropdown {
+    margin: 8px;
+    color: rgb(73, 72, 72);
+}
+
+.bg-agus {
+    background-color: #fffaf0;
+}
+
+.texto-header {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
+
+.carrusel {
+    width: 1900px;
+}
+
+.nuevos-ingresos {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.producto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ropa {
+    text-decoration: none;
+    color: #efa0ff;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    background-color: #f5c9fe;
+    border: 20px solid #f5c9fe;
+    justify-content: space-around;
+}
+
+.info-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconos-footer {
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primer-texto {
+    display: flex;
+    justify-content: center;
+}
+
+.segundo-texto {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 2px solid gray;
+    background-color: #f3f2f2;
+}
+
+.texto-footer {
+    font-size: 20px;
+}
+
+.card {
+    width: 40px;
+}
+
+.envio {
+    width: 70px;
+}
+
+.redes {
+    width: 30px;
+}
+
+.linea-temporal {
+    display: flex;
+    margin: 60px 0 5px 160px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.temporal {
+    margin: 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.grid-contacto {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 200px 400px;
+    grid-template-areas: 
+    'formulario contacto'
+    'formulario encontrarnos';
+}
+
+.formulario {
+    grid-area: formulario;
+    margin-left: 100px;
+}
+
+.medios-contacto {
+    grid-area: contacto;
+}
+
+.donde-encontrarnos {
+    grid-area: encontrarnos;
+}
+
+.parrafos-contacto {
+    font-size: 25px;
+    margin: 10px 0 10px 120px;
+}
+
+.mapa {
+    width: 300px;
+    height: 300px;
+    margin-left: 130px;
+}
+
+.texto-medios-contacto {
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: 600px 1000px;
+}
+
+.prendas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.prenda {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-prenda {
+    text-decoration: none;
+    color: #efa0ff;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.todos-los-productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.los-productos {
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.dentro {
+    margin-left: 14px;
+}
+
+.temporal {
+    text-decoration: none;
+}
+
+.texto-costado-productos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lado-izquierdo-productos {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.colores {
+    font-size: 15px;
+}
+
+.texto {
+    margin: 100px 200px 100px 200px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.imagen-nos {
+    width: 950px;
+}
+
+.grid-nosotros {
+    display: grid;
+    grid-template-columns: 950px 450px 450px;
+    grid-template-rows: 250px 450px 360px 365px;
+    grid-template-areas: 
+    'imagen titulo titulo'
+    'imagen texto1 texto2'
+    'imagen parrafo1 parrafo2'
+    'imagen parrafo3 parrafo4';
+    gap: 10px;
+}
+
+.imagen-nosotros {
+    grid-area: imagen;
+}
+
+.we-are {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-nos {
+    grid-area: texto1;
+}
+
+.info-nos2 {
+    grid-area: texto2;
+}
+
+.diseños-exclusivos {
+    grid-area: parrafo1;
+}
+
+.talles-reales {
+    grid-area: parrafo2;
+}
+
+.renovacion-stock {
+    grid-area: parrafo3;
+}
+
+.tienda-online {
+    grid-area: parrafo4;
+}
+
+.texto-nos {
+    margin: 25px;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.titulos-nosotros {
+    margin: 0 0 10px 30px;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textos-nosotros {
+    margin-left: 35px;
+    margin-right: 50px;
+    font-size: 110%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nos {
+    font-size: 80px;
+}
+
+.subtitulo-nos {
+    font-size: 20px;
+}
+
+.temp-nos {
+    display: flex;
+    justify-self: flex-start;
+}
