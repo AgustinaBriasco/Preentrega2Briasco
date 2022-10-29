@@ -197,15 +197,15 @@
     color: #000000;
 }
 
+.temp-container {
+    margin-right: 800px;
+}
+
 .titulo {
     display: flex;
     justify-content: center;
     font-size: 60px;
     margin-top: 100px;
-}
-
-.temporal {
-    text-decoration: none;
 }
 
 /*Contacto*/
@@ -343,7 +343,6 @@
     'imagen texto1 texto2'
     'imagen parrafo1 parrafo2'
     'imagen parrafo3 parrafo4';
-    gap: 10px;
 }
 
 .imagen-nosotros {
@@ -360,26 +359,32 @@
 
 .info-nos {
     grid-area: texto1;
+    margin-top: 80px;
 }
 
 .info-nos2 {
     grid-area: texto2;
+    margin-top: 80px;
 }
 
 .diseños-exclusivos {
     grid-area: parrafo1;
+    margin-top: 70px;
 }
 
 .talles-reales {
     grid-area: parrafo2;
+    margin-top: 70px;
 }
 
 .renovacion-stock {
     grid-area: parrafo3;
+    margin-top: 0;
 }
 
 .tienda-online {
     grid-area: parrafo4;
+    margin-top: 0;
 }
 
 .texto-nos {
@@ -398,11 +403,12 @@
     margin-left: 35px;
     margin-right: 50px;
     font-size: 110%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nos {
     font-size: 80px;
+    margin-top: 0;
 }
 
 .subtitulo-nos {
@@ -412,4 +418,6 @@
 .temp-nos {
     display: flex;
     justify-self: flex-start;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
