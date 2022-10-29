@@ -193,6 +193,8 @@
 
 .temporal {
     margin: 10px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .titulo {
