@@ -42,9 +42,10 @@
     padding: 3px;
 }
 
-.barra {
+#barra {
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .texto-dropdown {
