@@ -94,11 +94,11 @@
 }
 
 #boton-carrito:hover {
-    scale: (200px);
+    transform: scale(200px);
 }
 
 .btn-carrito:hover {
-    scale: (200px);
+    transform: scale(200px);
 }
 
 .ver-mas {
