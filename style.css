@@ -11,8 +11,6 @@
     display: flex;
     justify-content: center;
     padding: 5px;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     color: black;
     font-weight: bold;
@@ -60,8 +58,6 @@
 }
 
 .texto-header {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -72,7 +68,7 @@
     justify-content: center;
     padding: 50px;
     font-size: 200%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Zilla Slab', serif;
 }
 
 .producto-container {
@@ -109,10 +105,6 @@
     border-radius: 8px;
     padding: 5px 10px 5px 10px;
     border: 1px solid #ece6d8;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
@@ -169,6 +161,8 @@
 
 .texto-footer {
     font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5px;
 }
 
 .card-container {
@@ -193,10 +187,6 @@
 .linea-temporal {
     display: flex;
     margin: 60px 0 5px 160px;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -232,16 +222,35 @@
 
 .grid-contacto {
     display: grid;
-    grid-template-columns: 800px 800px;
+    grid-template-columns: 900px 900px;
     grid-template-rows: 200px 400px;
     grid-template-areas: 
     'formulario contacto'
     'formulario encontrarnos';
 }
 
+.formulario-container {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
 .formulario {
     grid-area: formulario;
     margin-left: 100px;
+}
+
+.txt-contacto {
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+}
+
+.btn-enviar {
+    border-radius: 5px;
+    padding: 3px 6px 3px 6px;
+    border: 1px solid #ffadbb;
+    background-color: #ffb6c1;
+    margin-left: 745px;
+    font-family: 'Zilla Slab', serif;
 }
 
 .medios-contacto {
@@ -255,6 +264,7 @@
 .parrafos-contacto {
     font-size: 25px;
     margin: 10px 0 10px 120px;
+    font-family: 'Zilla Slab', serif;
 }
 
 .mapa {
@@ -267,6 +277,12 @@
     font-size: 18px;
     margin-left: 130px;
     margin-top: 15px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.iconos-contacto {
+    margin-right: 5px;
+    font-size: 18px;
 }
 
 /* Productos */
@@ -322,7 +338,7 @@
 }
 
 .texto-costado-productos {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Zilla Slab', serif;
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
