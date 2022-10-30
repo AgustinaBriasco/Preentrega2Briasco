@@ -546,3 +546,37 @@
 .mid {
     margin: 0;
 }
+
+/*Media Query*/
+@media screen and (max-width: 420px) {
+    .hey-babe {
+        font-size: 10px;
+    }
+
+    .header-container {
+        max-width: 100%;
+    }
+
+    .logo {
+        margin-left: 1px;
+    }
+
+    .producto-container {
+        max-width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nuevos-ingresos {
+        font-size: 30px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wsp {
+        display: none;
+    }
+}
