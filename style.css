@@ -183,6 +183,35 @@
     width: 30px;
 }
 
+/*Footer para telefono*/
+
+.info-container-crsl {
+    background-color: #ff69b4;
+    padding-top: 15px;
+    border-top: 2px solid #ff2190;
+    padding-bottom: 10px;
+}
+
+.info-seccion-carrusel {
+    display: flex;
+}
+
+.iconos-footer-carrusel {
+    max-width: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.primer-texto-carrusel {
+    padding-top: 50px;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+.segundo-texto-carrusel {
+    font-size: 18px;
+}
+
 /* Cosas extras */
 
 .linea-temporal {
@@ -211,7 +240,7 @@
 }
 
 .wsp {
-    width: 180px;
+    width: 160px;
     position: absolute;
     bottom: 10px;
     right: 0;
