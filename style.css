@@ -594,6 +594,7 @@
         max-width: 30%;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .nuevos-ingresos {
@@ -606,6 +607,35 @@
     }
 
     .wsp {
+        display: none;
+    }
+
+    .linea-temporal {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .titulo {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .texto-cambio-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .respuesta {
+        font-size: 15px;
+    }
+
+    .pregunta {
+        font-size: 17px;
+    }
+    
+    .info-container {
         display: none;
     }
 }
