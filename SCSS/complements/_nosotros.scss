@@ -1,0 +1,93 @@
+/* Nosotros */
+
+.imagen-nos {
+    width: 950px;
+}
+
+.grid-nosotros {
+    display: grid;
+    grid-template-columns: 950px 450px 450px;
+    grid-template-rows: 250px 450px 360px 365px;
+    grid-template-areas: 
+    'imagen titulo titulo'
+    'imagen texto1 texto2'
+    'imagen parrafo1 parrafo2'
+    'imagen parrafo3 parrafo4';
+}
+
+.imagen-nosotros {
+    grid-area: imagen;
+}
+
+.we-are {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-nos {
+    grid-area: texto1;
+    margin-top: 80px;
+}
+
+.info-nos2 {
+    grid-area: texto2;
+    margin-top: 80px;
+}
+
+.diseños-exclusivos {
+    grid-area: parrafo1;
+    margin-top: 70px;
+}
+
+.talles-reales {
+    grid-area: parrafo2;
+    margin-top: 70px;
+}
+
+.renovacion-stock {
+    grid-area: parrafo3;
+    margin-top: 0;
+}
+
+.tienda-online {
+    grid-area: parrafo4;
+    margin-top: 0;
+}
+
+.texto-nos {
+    margin: 25px;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.titulos-nosotros {
+    margin: 0 0 10px 30px;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textos-nosotros {
+    margin-left: 35px;
+    margin-right: 50px;
+    font-size: 110%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nos {
+    font-size: 80px;
+    margin-top: 0;
+}
+
+.subtitulo-nos {
+    font-size: 20px;
+}
+
+.temp-nos {
+    display: flex;
+    justify-self: flex-start;
+    margin-top: 100px;
+    margin-bottom: 0;
+}

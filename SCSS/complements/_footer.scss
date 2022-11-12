@@ -1,0 +1,102 @@
+/* Footer */
+
+.info-container {
+    display: flex;
+    background-color: #ff69b4;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 2px solid #ff2190;
+}
+
+.info-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+}
+
+.iconos-footer {
+    width: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.primer-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.segundo-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 2px solid #ebe1c9;
+    background-color: #fffaf0;
+}
+
+.texto-footer {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 40px;
+    display: flex;
+}
+
+.envio {
+    width: 70px;
+}
+
+.redes {
+    width: 30px;
+}
+
+/*Footer para telefono*/
+
+.info-container-crsl {
+    background-color: #ff69b4;
+    padding-top: 15px;
+    border-top: 2px solid #ff2190;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.info-seccion-carrusel {
+    display: flex;
+}
+
+.iconos-footer-carrusel {
+    max-width: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.primer-texto-carrusel {
+    padding-top: 50px;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+.segundo-texto-carrusel {
+    font-size: 18px;
+}

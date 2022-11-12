@@ -1,0 +1,51 @@
+/*Productos index*/
+
+.nuevos-ingresos {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 200%;
+    font-family: 'Zilla Slab', serif;
+}
+
+.producto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    text-decoration: none;
+    color: #000000;
+}
+
+.tarjeta-productos {
+    margin: 10px;
+}
+
+#boton-carrito {
+    background-color: #ff69b4;
+    display: flex;
+    justify-content: center;
+    border-color: #ff69b4;
+}
+
+.btn-carrito:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.ver-mas {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.boton-ver-mas {
+    background-color: #fffaf0;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ece6d8;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}

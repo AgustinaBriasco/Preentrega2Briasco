@@ -1,0 +1,66 @@
+/*Contacto*/
+
+.grid-contacto {
+    display: grid;
+    grid-template-columns: 900px 900px;
+    grid-template-rows: 200px 400px;
+    grid-template-areas: 
+    'formulario contacto'
+    'formulario encontrarnos';
+}
+
+.formulario-container {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.formulario {
+    grid-area: formulario;
+    margin-left: 100px;
+}
+
+.txt-contacto {
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+}
+
+.btn-enviar {
+    border-radius: 5px;
+    padding: 3px 6px 3px 6px;
+    border: 1px solid #ffadbb;
+    background-color: #ffb6c1;
+    margin-left: 745px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.medios-contacto {
+    grid-area: contacto;
+}
+
+.donde-encontrarnos {
+    grid-area: encontrarnos;
+}
+
+.parrafos-contacto {
+    font-size: 25px;
+    margin: 10px 0 10px 120px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.mapa {
+    width: 300px;
+    height: 300px;
+    margin-left: 130px;
+}
+
+.texto-medios-contacto {
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 15px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.iconos-contacto {
+    margin-right: 5px;
+    font-size: 18px;
+}

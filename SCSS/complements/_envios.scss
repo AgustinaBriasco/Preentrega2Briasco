@@ -1,0 +1,28 @@
+/* Envios */
+
+.texto-envios-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.texto-envios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txt-envios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: #b52780;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mid {
+    margin: 0;
+}

@@ -1,0 +1,35 @@
+/* Politicas de Cambio */
+
+.texto-cambio-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.texto-cambio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txt-cambio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pregunta {
+    font-weight: bold;
+    margin: 0;
+    color: #9f116a;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.respuesta {
+    margin: 20px;
+    color: #b52780;
+    font-family: 'Roboto', sans-serif;
+}

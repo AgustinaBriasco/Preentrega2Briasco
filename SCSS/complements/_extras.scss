@@ -1,0 +1,35 @@
+/* Cosas extras */
+
+.linea-temporal {
+    display: flex;
+    margin: 60px 0 5px 160px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.temporal {
+    margin: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.temp-container {
+    margin-right: 800px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 100px;
+    color: #a03472;
+    font-family: 'Playfair Display', serif;
+}
+
+.wsp {
+    width: 160px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    position: fixed;
+    z-index: 4;
+}

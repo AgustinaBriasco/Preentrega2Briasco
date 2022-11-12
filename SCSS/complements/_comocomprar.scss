@@ -1,0 +1,29 @@
+/*Como comprar*/
+
+.texto-comprar-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.texto-comprar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.txt-comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: #b52780;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ult {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
