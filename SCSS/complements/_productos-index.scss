@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 /*Productos index*/
 
 .nuevos-ingresos {
@@ -42,7 +44,7 @@
 }
 
 .boton-ver-mas {
-    background-color: #fffaf0;
+    background-color: nth($colores,7);
     border-radius: 8px;
     padding: 5px 10px 5px 10px;
     border: 1px solid #ece6d8;

@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 /* Politicas de Cambio */
 
 .texto-cambio-container {
@@ -23,13 +25,13 @@
 .pregunta {
     font-weight: bold;
     margin: 0;
-    color: #9f116a;
+    color: nth($colores,2);
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
 .respuesta {
     margin: 20px;
-    color: #b52780;
+    color: nth($colores,3);
     font-family: 'Roboto', sans-serif;
 }

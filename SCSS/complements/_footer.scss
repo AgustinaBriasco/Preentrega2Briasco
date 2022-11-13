@@ -1,8 +1,10 @@
+@import '../base/listas';
+
 /* Footer */
 
 .info-container {
     display: flex;
-    background-color: #ff69b4;
+    background-color: nth($colores,1);
     justify-content: space-around;
     padding: 20px;
     border-top: 2px solid #ff2190;
@@ -45,7 +47,7 @@
     padding-top: 20px;
     padding-bottom: 40px;
     border-top: 2px solid #ebe1c9;
-    background-color: #fffaf0;
+    background-color: nth($colores,7);
 }
 
 .texto-footer {
@@ -74,7 +76,7 @@
 /*Footer para telefono*/
 
 .info-container-crsl {
-    background-color: #ff69b4;
+    background-color: nth($colores,1);
     padding-top: 15px;
     border-top: 2px solid #ff2190;
     padding-bottom: 10px;

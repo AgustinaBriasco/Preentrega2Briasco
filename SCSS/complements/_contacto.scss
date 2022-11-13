@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 /*Contacto*/
 
 .grid-contacto {
@@ -28,7 +30,7 @@
     border-radius: 5px;
     padding: 3px 6px 3px 6px;
     border: 1px solid #ffadbb;
-    background-color: #ffb6c1;
+    background-color: nth($colores,4);
     margin-left: 745px;
     font-family: 'Zilla Slab', serif;
 }

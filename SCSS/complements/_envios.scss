@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 /* Envios */
 
 .texto-envios-container {
@@ -19,7 +21,7 @@
     justify-content: center;
     align-items: center;
     margin: 30px;
-    color: #b52780;
+    color: nth($colores,3);
     font-family: 'Roboto', sans-serif;
 }
 
