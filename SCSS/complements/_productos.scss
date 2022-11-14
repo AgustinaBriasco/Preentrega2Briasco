@@ -1,4 +1,5 @@
 @import '../base/listas';
+@import '../base/extends';
 
 /* Productos */
 
@@ -66,8 +67,6 @@
 
 .colores {
     font-size: 15px;
-    border-radius: 8px;
     padding: 5px;
-    border: 1px solid #ebe1c9;
-    background-color: nth($colores,7);
+    @extend %botones;
 }

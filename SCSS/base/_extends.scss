@@ -1,0 +1,8 @@
+@import '../base/listas';
+
+%botones {
+    border-radius: 8px;
+    border: 1px solid #ebe1c9;
+    background-color: nth($colores, 7);
+}
+
