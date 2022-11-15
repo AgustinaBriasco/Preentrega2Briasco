@@ -8,6 +8,10 @@
     justify-content: space-around;
     padding: 20px;
     border-top: 2px solid #ff2190;
+
+    @media (max-width: 420px) {
+        display: none;
+    }
 }
 
 .info-seccion {
@@ -48,6 +52,11 @@
     padding-bottom: 40px;
     border-top: 2px solid #ebe1c9;
     background-color: nth($colores,7);
+
+    @media screen and (max-width: 420px) {
+      display: flex;
+      flex-direction: column;  
+    }
 }
 
 .texto-footer {
@@ -102,3 +111,4 @@
 .segundo-texto-carrusel {
     font-size: 18px;
 }
+

@@ -9,16 +9,31 @@
     grid-template-areas: 
     'formulario contacto'
     'formulario encontrarnos';
+
+    @media screen and (max-width: 420px) {
+        grid: none;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .formulario-container {
     margin-left: 100px;
     margin-top: 20px;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 0px;
+    }
 }
 
 .formulario {
     grid-area: formulario;
     margin-left: 100px;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .txt-contacto {
@@ -33,6 +48,10 @@
     background-color: nth($colores,4);
     margin-left: 745px;
     font-family: 'Zilla Slab', serif;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 280px;
+    }
 }
 
 .medios-contacto {
@@ -47,12 +66,24 @@
     font-size: 25px;
     margin: 10px 0 10px 120px;
     font-family: 'Zilla Slab', serif;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 20px;
+
+    }
 }
 
 .mapa {
     width: 300px;
     height: 300px;
     margin-left: 130px;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 20px;
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
 }
 
 .texto-medios-contacto {
@@ -60,6 +91,10 @@
     margin-left: 130px;
     margin-top: 15px;
     font-family: 'Zilla Slab', serif;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 40px;
+    }
 }
 
 .iconos-contacto {

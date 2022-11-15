@@ -6,6 +6,11 @@
     display: flex;
     margin: 60px 0 5px 160px;
     font-family: 'Roboto Slab', serif;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
 
 .temporal {
@@ -25,6 +30,12 @@
     margin-top: 100px;
     color: nth($colores,5);
     font-family: 'Playfair Display', serif;
+
+    @media screen and (max-width: 420px) {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .wsp {
@@ -34,4 +45,8 @@
     right: 0;
     position: fixed;
     z-index: 4;
+
+    @media screen and (max-width: 420px) {
+        display: none;
+    }
 }

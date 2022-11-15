@@ -9,6 +9,10 @@
     padding: 50px;
     font-size: 200%;
     font-family: 'Zilla Slab', serif;
+
+    @media screen and (max-width: 420px) {
+        font-size: 30px;
+    }
 }
 
 .producto-container {
@@ -49,4 +53,10 @@
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     @extend %botones;
+}
+
+@media screen and (max-width: 420px) {
+    .info-container-crsl {
+        display: block;
+    }
 }

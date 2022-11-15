@@ -8,6 +8,12 @@
     flex-direction: column;
     margin-left: 150px;
     margin-right: 150px;
+
+    @media screen and (max-width: 420px) {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .texto-cambio {
@@ -28,10 +34,18 @@
     color: nth($colores,2);
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+
+    @media screen and (max-width: 420px) {
+        font-size: 17px;
+    }
 }
 
 .respuesta {
     margin: 20px;
     color: nth($colores,3);
     font-family: 'Roboto', sans-serif;
+
+    @media screen and (max-width: 420px) {
+        font-size: 15px;
+    }
 }
