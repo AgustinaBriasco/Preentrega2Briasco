@@ -414,6 +414,11 @@
   }
 }
 
+#icono-heybabe {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   max-width: 100px;
   margin-left: 100px;
@@ -447,6 +452,12 @@
 #menu-iconos {
   display: flex;
   padding: 3px;
+}
+@media screen and (max-width: 420px) {
+  #menu-iconos {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 #barra {
