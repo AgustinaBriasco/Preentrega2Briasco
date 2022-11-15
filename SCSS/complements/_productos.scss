@@ -6,6 +6,10 @@
 .grid-productos {
     display: grid;
     grid-template-columns: 600px 1000px;
+
+    @media screen and (max-width: 420px) {
+        grid: none;
+    }
 }
 
 .prendas-container {
@@ -58,15 +62,34 @@
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 420px) {
+
+    }
 }
 
 .lado-izquierdo-productos {
     margin-left: 200px;
     margin-top: 20px;
+
+    @media screen and (max-width: 420px) {
+        margin-left: 30px;
+        margin-top: 0;
+    }
 }
 
 .colores {
     font-size: 15px;
     padding: 5px;
     @extend %botones;
+
+    @media screen and (max-width: 420px) {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .temp-productos {
+        margin-top: 20px;
+    }
 }
