@@ -253,6 +253,11 @@
 .temp-container {
   margin-right: 800px;
 }
+@media (max-width: 420px) {
+  .temp-container {
+    margin-right: 0px;
+  }
+}
 
 .titulo {
   display: flex;
@@ -483,12 +488,22 @@
 .imagen-nos {
   width: 950px;
 }
+@media (max-width: 420px) {
+  .imagen-nos {
+    display: none;
+  }
+}
 
 .grid-nosotros {
   display: grid;
   grid-template-columns: 950px 450px 450px;
   grid-template-rows: 250px 450px 360px 365px;
   grid-template-areas: "imagen titulo titulo" "imagen texto1 texto2" "imagen parrafo1 parrafo2" "imagen parrafo3 parrafo4";
+}
+@media (max-width: 420px) {
+  .grid-nosotros {
+    display: contents;
+  }
 }
 
 .imagen-nosotros {
@@ -502,35 +517,73 @@
   align-items: center;
   flex-direction: column;
 }
+@media (max-width: 420px) {
+  .we-are {
+    display: inline;
+  }
+}
 
 .info-nos {
   grid-area: texto1;
   margin-top: 80px;
+}
+@media (max-width: 420px) {
+  .info-nos {
+    margin-top: 20px;
+    font-size: 15px;
+  }
 }
 
 .info-nos2 {
   grid-area: texto2;
   margin-top: 80px;
 }
+@media (max-width: 420px) {
+  .info-nos2 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
 
 .diseños-exclusivos {
   grid-area: parrafo1;
   margin-top: 70px;
+}
+@media (max-width: 420px) {
+  .diseños-exclusivos {
+    margin-top: 30px;
+  }
 }
 
 .talles-reales {
   grid-area: parrafo2;
   margin-top: 70px;
 }
+@media (max-width: 420px) {
+  .talles-reales {
+    margin-top: 30px;
+  }
+}
 
 .renovacion-stock {
   grid-area: parrafo3;
   margin-top: 0;
 }
+@media (max-width: 420px) {
+  .renovacion-stock {
+    margin-top: 30px;
+  }
+}
 
 .tienda-online {
   grid-area: parrafo4;
   margin-top: 0;
+}
+@media (max-width: 420px) {
+  .tienda-online {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .texto-nos {
@@ -556,9 +609,19 @@
   font-size: 80px;
   margin-top: 0;
 }
+@media (max-width: 420px) {
+  .nos {
+    font-size: 50px;
+  }
+}
 
 .subtitulo-nos {
   font-size: 20px;
+}
+@media (max-width: 420px) {
+  .subtitulo-nos {
+    margin-left: 20px;
+  }
 }
 
 .temp-nos {
@@ -566,6 +629,11 @@
   justify-self: flex-start;
   margin-top: 100px;
   margin-bottom: 0;
+}
+@media (max-width: 420px) {
+  .temp-nos {
+    margin-top: 5px;
+  }
 }
 
 .colores, .boton-ver-mas {

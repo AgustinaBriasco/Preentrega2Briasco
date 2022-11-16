@@ -21,6 +21,10 @@
 
 .temp-container {
     margin-right: 800px;
+
+    @media (max-width: 420px) {
+        margin-right: 0px;;
+    }
 }
 
 .titulo {

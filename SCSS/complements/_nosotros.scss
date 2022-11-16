@@ -4,6 +4,10 @@
 
 .imagen-nos {
     width: 950px;
+
+    @media (max-width: 420px) {
+        display: none;
+    }
 }
 
 .grid-nosotros {
@@ -15,6 +19,10 @@
     'imagen texto1 texto2'
     'imagen parrafo1 parrafo2'
     'imagen parrafo3 parrafo4';
+
+    @media (max-width: 420px) {
+        display: contents;
+    }
 }
 
 .imagen-nosotros {
@@ -27,42 +35,73 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 420px) {
+        display: inline;
+    }
 }
 
 .info-nos {
     grid-area: texto1;
     margin-top: 80px;
+
+    @media (max-width: 420px) {
+        margin-top: 20px;
+        font-size: 15px;
+    }
 }
 
 .info-nos2 {
     grid-area: texto2;
     margin-top: 80px;
+    
+    @media (max-width: 420px){
+        margin-top: 10px;
+        font-size: 15px;
+    }
 }
 
 .diseños-exclusivos {
     grid-area: parrafo1;
     margin-top: 70px;
+
+    @media (max-width: 420px) {
+        margin-top: 30px;
+    }
 }
 
 .talles-reales {
     grid-area: parrafo2;
     margin-top: 70px;
+
+    @media (max-width: 420px) {
+       margin-top: 30px;
+    }
 }
 
 .renovacion-stock {
     grid-area: parrafo3;
     margin-top: 0;
+
+    @media (max-width: 420px) {
+       margin-top: 30px;
+    }
 }
 
 .tienda-online {
     grid-area: parrafo4;
     margin-top: 0;
+
+    @media (max-width: 420px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .texto-nos {
     margin: 25px;
     font-size: 130%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .titulos-nosotros {
@@ -81,10 +120,18 @@
 .nos {
     font-size: 80px;
     margin-top: 0;
+
+    @media (max-width: 420px) {
+        font-size: 50px;
+    }
 }
 
 .subtitulo-nos {
     font-size: 20px;
+
+    @media (max-width: 420px) {
+        margin-left: 20px;
+    }
 }
 
 .temp-nos {
@@ -92,4 +139,8 @@
     justify-self: flex-start;
     margin-top: 100px;
     margin-bottom: 0;
+
+    @media (max-width: 420px) {
+        margin-top: 5px;
+    }
 }
