@@ -490,7 +490,7 @@
 }
 @media (max-width: 420px) {
   .imagen-nos {
-    display: none;
+    max-width: 100%;
   }
 }
 
@@ -632,7 +632,7 @@
 }
 @media (max-width: 420px) {
   .temp-nos {
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
 

@@ -6,7 +6,7 @@
     width: 950px;
 
     @media (max-width: 420px) {
-        display: none;
+        max-width: 100%;
     }
 }
 
@@ -141,6 +141,6 @@
     margin-bottom: 0;
 
     @media (max-width: 420px) {
-        margin-top: 5px;
+        margin-top: 15px;
     }
 }
