@@ -362,6 +362,7 @@
 .card-footer {
   width: 40px;
   display: flex;
+  height: 40px;
 }
 
 .envio {
